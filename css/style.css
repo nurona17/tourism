@@ -1,0 +1,589 @@
+*{
+    margin: 0;
+    padding: 0;
+    }
+    
+    
+    .header{
+    background-image: url(https://avatars.mds.yandex.net/i?id=a4312963be81c8926418dda1f651102af9833379-10642623-images-thumbs&n=13);
+    background-size:1450px;
+    height: 850px;
+    }
+    ul {
+        list-style-type: none;
+        padding: 15px;
+        margin: 0px;
+        display: flex;
+        background-color: rgba(0, 0, 0, 0.2);
+        opacity: 60;
+        justify-content: space-around;
+      }
+      li {
+        padding: 10px 10px;
+        
+      }
+      a {
+        text-decoration: none;
+        color: #fff;
+        font-weight: bold;
+      }
+      a:hover {
+        color: #ff0000;
+      }
+     .text_1{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 64px;
+    width: 400;
+    color: #322C56;
+    margin-top: 300px;
+     }
+    
+     .text_2{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 32px;
+    width: 400;
+    color: #322C56;
+     }
+    
+    .history{
+    background-color:  #2F2D2A;
+    padding: 10px 20px;
+    }
+    
+    .history_text{
+    font-size: 40px;
+    width: 400;
+    color:  #C8AC76;
+    margin-left: 20px;
+    padding: 10px 10px;
+    }
+    .history_title{
+    text-align: left;
+    margin-left: 45px;
+    color: #fff;
+    }
+    
+    
+    /* Slideshow container */
+    .slideshow-container {
+      max-width: 1000px;
+      position: relative;
+      margin: 10px;
+      margin-left: 150px;
+    
+    }
+    .slide{
+    background-color: #2F2D2A;
+    padding: 5px 0px;
+    }
+    
+    /* Hide the images by default */
+    .mySlides {
+      display: none;
+    }
+    
+    /* Next & previous buttons */
+    .prev, .next {
+      cursor: pointer;
+      position: absolute;
+      top: 50%;
+      width: auto;
+      margin-top: -22px;
+      padding: 16px;
+      color: white;
+      font-weight: bold;
+      font-size: 18px;
+      transition: 0.6s ease;
+      border-radius: 0 3px 3px 0;
+      user-select: none;
+    }
+    
+    /* Position the "next button" to the right */
+    .next {
+      right: 0;
+      border-radius: 3px 0 0 3px;
+    }
+    
+    /* On hover, add a black background color with a little bit see-through */
+    .prev:hover, .next:hover {
+      background-color: rgba(0,0,0,0.8);
+    }
+    
+    
+    
+    
+    
+    /* The dots/bullets/indicators */
+    .dot {
+      cursor: pointer;
+      height: 15px;
+      width: 15px;
+      margin: 0 2px;
+      background-color: #bbb;
+      border-radius: 50%;
+      display: inline-block;
+      transition: background-color 0.6s ease;
+    }
+    
+    .active, .dot:hover {
+      background-color: #717171;
+    }
+    
+    /* Fading animation */
+    .fade {
+      animation-name: fade;
+      animation-duration: 1.5s;
+    }
+    
+    @keyframes fade {
+      from {opacity: .4}
+      to {opacity: 1}
+    }
+    
+    
+    
+    .container{
+      background-color:  #2F2D2A;
+     padding:10px ;
+     margin-top: -18px;
+      
+      }
+      
+      
+      
+      
+      
+      .text{
+      font-size: 40px;
+      width: 400;
+      color:  #C8AC76;
+      margin-left: 20px;
+      }
+        
+      .img_10{
+      margin-top: 20px;
+      margin-left: 5px;
+      }
+      
+      .text_10{
+      text-align: left;
+      margin-left: 130px;
+      color: #fff;
+      margin-top: 5px;
+      }
+      .img_20{
+      margin-top: 25px;
+      margin-left: 280px;
+      }
+      
+      .text_20{
+      margin-top: 25px;
+      margin-left: 50px;
+      color: #fff;
+      }
+      
+      .contauner{
+          text-align: left;
+          margin-left: 800px;
+          margin-top: -620px;
+          color: #fff;
+      }
+      .img_30{
+      margin-left: 220px;
+      
+      }
+      
+      .img_40{
+      margin-left:90px ;
+      margin-top: -100px;
+      }
+      .text_40{
+      margin-left: 100px;
+      margin-top: 25px;
+      }
+      
+      .vl{
+      height: 580px;
+      position: absolute;
+      left: 50%;
+      margin-top: -520px;
+      border: 1px solid #C8AC76;
+      }
+      
+      
+      .tajikistan{
+        background-color:  #2F2D2A;
+        padding: 10px 20px;
+        margin-top: 70px;
+    }
+    
+    .tajik_text{
+    text-align: center;
+    color: #C8AC76;
+    font-size: 36px;
+    width: 400;
+    padding:20px 10px;
+    }
+    
+    .tajik_img_1{
+    width: 467px;
+    height: 268;
+    margin-left: 10px;
+    }
+    .tajik_text_1{
+    font-size: 24px;
+    width: 500;
+    color: #fff;
+    margin-left: 150px;
+    }
+    
+    .tajik_conteyner{
+    margin-top: -300px;
+    }
+    .tajik_img_2{
+        width: 467px;
+        height: 268;
+        margin-left:800px;
+        }
+        .tajik_text_2{
+        font-size: 24px;
+        width: 500;
+        color: #fff;
+        margin-left: 1000px;
+        }
+    
+    .tajik_img_3{
+        width: 467px;
+        height: 268;
+        margin-left:350px;
+        margin-top: 15px;
+    }
+    .tajik_text_3{
+        font-size: 24px;
+        width: 500;
+        color: #fff;
+        margin-left: 470px;
+        }
+    
+        .tajik_img_4{
+            width: 467px;
+            height: 268;
+            padding: 10px;
+            }
+            .tajik_text_4{
+            font-size: 24px;
+            width: 500;
+            color: #fff;
+            margin-left: 140px;
+            }
+    
+            
+                
+            .tajik_img_5{
+                width: 467px;
+                height: 268;
+                margin-left:780px;
+                margin-top: -300px;
+                
+                }
+                .tajik_text_5{
+                font-size: 24px;
+                width: 500;
+                color: #fff;
+                margin-left: 930px;
+                }
+    
+    .tourism{
+    background-color: #2F2D2A;
+    padding: 20px 20px;
+    }
+    
+        .tourism_text{
+        padding: 10px 20px;
+        text-align: center;
+        color: #C8AC76;
+        font-size: 48px;
+        width: 500;
+        }
+    
+        .tourism_img{
+       margin-left: 100px;
+       margin-top: 10px;
+        }
+        .tourism_text_1{
+            color: #fff;
+            margin-left: 100px;
+            padding: 10px 10px;
+        }
+        
+        .tourism_container{
+            margin-top: -350px;
+            }
+            .tourism_img_2{
+                width: 467px;
+                height: 268;
+                margin-left:800px;
+                }
+                .tourism_text_2{
+                padding: 10px 10px;
+                color: #fff;
+                margin-left: 800px;
+                }
+    
+                .button{
+                    display: flex;
+                    background-color: #2F2D2A;
+                    justify-content: space-around;
+                    padding: 20px 20px;
+                }
+    
+                .read-button {
+                    background-color:rgba(0, 0, 0, 0.1);
+                    color: orange;
+                    padding: 10px 20px;
+                    font-size: 16px;
+                    border: 3px solid orange;
+                    border-radius: 5px;
+                    cursor: pointer;
+                }
+                
+                .read-button:hover {
+                    background-color:#C8AC76;
+                }
+    
+                .read-button_1 {
+                   background-color:rgba(0, 0, 0, 0.1);
+                    
+                   color: orange;
+                   padding: 10px 20px;
+                   font-size: 16px;
+                   border: 3px solid orange;
+                   border-radius: 5px;
+                   cursor: pointer;
+                }
+                
+                .read-button_1:hover {
+                    background-color:#C8AC76;
+                }
+    
+                .header_1{
+                  background-image: url(https://media-cdn.tripadvisor.com/media/photo-s/08/3f/76/7a/hisor-fortress-from-the.jpg);
+                  background-size:1450px;
+                  height: 850px;
+                }
+                
+                .header_text{
+                font-size: 32px;
+                
+                color: #fff;
+                margin-left: 160px;
+                padding: 50px 10px;
+                }
+    
+                .header_text_1{
+                font-size: 36px;
+                margin-top: 250px;
+                margin-left: 30px;
+                color: #fff;
+                width: 700;
+                }
+              
+              
+                .imale_cont{
+                  margin-top: -75px;
+                  
+                }
+              #email-input {
+                margin-left: 650px;
+                    width: 500px;
+                    padding: 20px;
+                    margin-bottom: 10px;
+                    border-radius: 20px;
+                    background-color: #D9D9D9;
+                   
+              }
+              .form {
+                text-align: center;
+            }
+            
+            .submit-button {
+                padding: 20px 30px;
+                font-size: 16px;
+                cursor: pointer;
+                background-color: #fa8b04;
+                color: white;
+                border: none;
+                border-radius: 20px;
+                transition: background-color 0.3s;
+                margin-left: 900px;
+            }
+            
+            .submit-button:hover {
+                background-color: #d6a605;
+            }
+    
+            .gelery{
+              background-color:  #2F2D2A;
+              padding: 10px 20px;
+              
+              }
+              
+              
+              .kontayner{
+                padding: 10px;
+              }
+              
+              .gtext{
+              font-size: 35px;
+              width: 400;
+              padding: 10px 5px;
+              color:  #C8AC76;
+              text-align: center;
+              
+              }
+              
+              .textt_1{
+              color: #C8AC76;
+              font-size: 28px;
+              width: 400;
+              padding: 5px 10px;
+              }
+              .textt_2{
+                  color: #C8AC76;
+                  font-size: 28px;
+                  width: 400;
+                  padding: 5px 10px;
+                  }
+                  .textt_3{
+                      color: #C8AC76;
+                      font-size: 28px;
+                      width: 400;
+                      padding: 5px 10px;
+                      }
+                      .textt_4{
+                          color: #C8AC76;
+                          font-size: 28px;
+                          width: 400;
+                          padding: 5px 10px;
+                          }
+                          .textt_5{
+                              color: #C8AC76;
+                              font-size: 28px;
+                              width: 400;
+                              padding: 5px 10px;
+                              }
+                              .textt_6{
+                                  color: #C8AC76;
+                                  font-size: 28px;
+                                  width: 400;
+                                  padding: 5px 10px;
+                                  }
+                                 
+              .kontayyner{
+              margin-left:650px;
+              margin-top: -2975px;
+              }
+              
+              
+              .textt_7{
+                  color: #C8AC76;
+                  font-size: 28px;
+                  width: 400;
+                  padding: 5px 10px;
+                  }
+                  .textt_8{
+                      color: #C8AC76;
+                      font-size: 28px;
+                      width: 400;
+                      padding: 5px 10px;
+                      }
+                      .textt_9{
+                          color: #C8AC76;
+                          font-size: 28px;
+                          width: 400;
+                          padding: 5px 10px;
+                          }
+                          .textt_10{
+                              color: #C8AC76;
+                              font-size: 28px;
+                              width: 400;
+                              padding: 5px 10px;
+                              }
+                              .textt_11{
+                                  color: #C8AC76;
+                                  font-size: 28px;
+                                  width: 400;
+                                  padding: 5px 10px;
+                                  }
+                                  .textt_12{
+                                      color: #C8AC76;
+                                      font-size: 28px;
+                                      width: 400;
+                                      padding: 5px 10
+                                     }
+    
+    
+    
+    
+                                    
+                                    .footer{
+                                        background-color: black;
+                                    }
+                                    .footer_container{
+                                        background-color: black;
+                                    width: 1240px;
+                                    padding: 50px 30px 20px;
+                                    
+                                    }
+                                    .social_icons{
+                                    display: flex;
+                                    justify-content: center;
+                                    
+                                    }
+                                    
+                                    .social_icons a{
+                                      text-decoration: none;
+                                      padding: 10px;
+                                      text-align: center;
+                                      margin: 10px;
+                                      border-radius:50%;
+                                    }  
+                                    
+                                    /* hover effects on social media icons */
+                                    .social_icons a:hover{
+                                        background-color: rgb(45, 32, 32);
+                                        transition: 0.5s;
+                                    
+                                    }
+                                    .social_icons a:hover i{
+                                    color: white;
+                                    transition: 0.5s;
+                                    }
+    
+                                    .footer_text{
+                                    color: #fff;
+                                    font-size: 16px;
+                                    width: 400;
+                                    text-align: center;
+                                    }
+                                    
+                                    
+                                  
+                                  
+                                  header {
+                                      background-color: #333;
+                                      color: white;
+                                      padding: 10px;
+                                  }
+                                  
+                                  .conteyner ul {
+                                      list-style: none;
+                                      padding: 0;
+                                      display: flex;
+                                      justify-content: space-around;
+                                  }
+                                  
+                                 
+                                  
